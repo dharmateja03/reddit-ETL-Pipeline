@@ -4,8 +4,8 @@
 This project implements a comprehensive data pipeline that extracts data from Reddit, processes it, and makes it available for analytics. The pipeline extracts posts from selected subreddits, loads them into AWS infrastructure, transforms the data using dbt, and visualizes insights using Power BI.
 
 ## Architecture
-![![image](https://github.com/user-attachments/assets/d010e3a6-691b-482a-92f1-8bbaf9d277c6)
-]
+![image](https://github.com/user-attachments/assets/d010e3a6-691b-482a-92f1-8bbaf9d277c6)
+
 
 The data flows through the following stages:
 1. **Extraction**: Python scripts connect to Reddit API to extract post data
